@@ -36,7 +36,7 @@ p {
     overflow: hidden;
 }
 .small-ful-box .s-box {
-   width: 49%;
+    width: 49%;
     height: 14rem;
     background-color: rgba(128, 128, 128, 0.3);
     margin-bottom: .6rem;
@@ -171,12 +171,12 @@ header .logo h1 {
 
 /* Navigation */
 header nav ul {
+    list-style-type: none;
     padding-top: .4rem;
     position: relative;
 }
 
 header nav ul li {
-    list-style-type: none;
     padding-right: .2rem;
     float: left;
     position: relative;
