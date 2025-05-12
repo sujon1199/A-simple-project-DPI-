@@ -269,8 +269,22 @@ header nav .active {
     padding-left: .4rem; 
     box-sizing: border-box;
 }
-#full-content .asidbar .s-img img {
+#full-content .asidbar .s-img {
     width: 100%;
+}
+.important-link ul li{
+    border-bottom: #333 solid .1rem;
+}
+.important-link ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    padding: .5rem 0;
+}
+.important-link ul li a:hover {
+    color: rgba(221, 135, 2, 0.93);
+    text-decoration: underline;
 }
 
 /* footer */
